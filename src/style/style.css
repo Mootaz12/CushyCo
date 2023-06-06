@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.cursive {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+.navItems a:hover span {
+  opacity: 1;
+}
