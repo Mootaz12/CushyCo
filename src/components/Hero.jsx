@@ -9,25 +9,30 @@ export default function Hero() {
             Design Your <br />
             Comfort Zone
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-800">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus reiciendis voluptatum, explicabo at voluptas dolorem
-            delectus nihil, id accusamus magni tempora rem ipsam aliquam. Sed
-            officiis maiores nisi quasi rerum!
+          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-800 text-justify">
+            Transform your living space into a haven of style and comfort, where
+            elegance meets functionality in every furniture piece. Explore our
+            curated collection of timeless designs, and create a home that
+            reflects your unique taste and personality.
           </p>
           <a
             href="#"
-            className="tracking-widest inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-amber-500 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="px-8 py-3 font-regular rounded bg-[#ac7c5c] text-[#e7cda6] tracking-wider hover:bg-[#e7cda6] hover:text-black duration-300"
           >
             SHOP NOW
           </a>
         </div>
-        <div className="relative lg:mt-0 lg:col-span-5 lg:flex h-4/6">
-          <img src={img1} alt="Image 1" className="pl-2" />
+        <div className="img1 rounded-md lg:mt-0 lg:col-span-5 lg:flex relative z-10">
+          <div className="shape bg-[#ac7c5c] rounded-md absolute left-10 bottom-0 z-0" />
+          <img
+            src={img1}
+            alt="Image 1"
+            className="img1 rounded-md lg:mt-0 lg:col-span-5 lg:flex relative z-10 pl-[5vw]"
+          />
           <img
             src={img2}
             alt="Image 2"
-            className="absolute bottom-0 left-0 w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12"
+            className="absolute img2 rounded-md bottom-0 left-0 w-5/12 z-10"
           />
         </div>
       </div>

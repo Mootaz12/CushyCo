@@ -6,3 +6,17 @@
 .navItems a:hover span {
   opacity: 1;
 }
+.cursive {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+.navItems a:hover span {
+  opacity: 1;
+}
+.img1 {
+  max-height: 70vh;
+}
+.shape {
+  height: 43vh;
+  width: 5vw;
+}
